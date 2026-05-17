@@ -1,0 +1,24 @@
+{
+  "name": "olympus-cypress-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "sasanka.ramawickrama",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cypress": "^12.14.0",
+    "cypress-failed-log": "^2.10.0",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.13.3"
+  },
+  "dependencies": {
+    "oracledb": "^6.0.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
